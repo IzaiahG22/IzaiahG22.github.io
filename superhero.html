@@ -1,14 +1,87 @@
 <!DOCTYPE html> 
 <html lang="en">
   <head>
-    <title>Template</title>
+    <title>Superheros</title>
     <meta charset="UTF-8">
+    <style>
+      table
+      {
+        border-collapse: collapse
+      }
+      table, th, td
+      {
+        border:2px black solid;
+        padding:5px;
+      }
+      th
+      {
+        width:500px;
+      }
+      table img
+      {
+        height:100px;
+        display:block;
+        margin:auto;
+      }
+      h1
+      {
+        text-align:center;
+      }
+      .heropic:hover
+      {
+        background-color: blue;
+      }
+    </style>
   </head>
   <body>
-    <h1>Page Title</h1>
-    <h2>Subheading</h2>
-    <p>Body text</p>
-    <h2>Subheading</h2>
-    <p>Body text</p>
+    <h1>Superheros</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Alias</th>
+          <th>Image</th>
+          <th>Superpower</th>
+          <th>Weakness</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Wolverine</th>
+          <td>Logan</td>
+          <td class="heropic"><a href="images/Wolverine.jpg"><img src="images/Wolverine.jpg" alt="pic of wolverine"></a></td>
+          <td>Regeneration & Retractable Claws</td>
+          <td>Magneto</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th>Gambit</th>
+          <td>Remy</td>
+          <td class="heropic"><a href="images/Gambit.jpg"><img src="images/Gambit.jpg"  alt="pic of Gambit"></a></td>
+          <td>Bio-Kinetic energy manipluation</td>
+          <td>Requires Physical contact for powers to function</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th>Human Torch</th>
+          <td>Johnny Storm</td>
+          <td class="heropic"><a href="images/Humantorch.jpg"><img src="images/Humantorch.jpg"  alt="pic of Human Torch"></a></td>
+          <td>Pyrokinesis</td>
+          <td>Powers can be to destructive</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th>Black Panther</th>
+          <td>T'Challa</td>
+          <td class="heropic"><a href="images/Blackpanther.jpg"><img src="images/Blackpanther.jpg"  alt="pic of Black Panther"></a></td>
+          <td>Superhuman agility / Reflexes </td>
+          <td>fundementally still human</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><a href="index.html">HOME</a></p>
   </body>
 </html>

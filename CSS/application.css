@@ -10,9 +10,10 @@
     font-family: PlayfairDisplay;
     src: url("font/PlayfairDisplay-Italic-VariableFont_wght.ttf")
 }
-h1
+@font-face
 {
-    
+    font-family: Arvo;
+    src: url("font/Arvo-Regular.ttf")
 }
 li
 {
@@ -30,9 +31,23 @@ li img
     background-color: rbg(38. 38, 38);
     float: right;
 }
+h1
+{
+    font-family: Arvo;
+    text-align: center;
+    font-size: 20pt;
+    margin: 2px;
+}
+h2
+{
+    font-family: Arvo;
+    text-align: center;
+    font-size: 20pt;
+    margin: 2px;
+}
 h3
 {
-    font-family:  BlinkMacSystemFont;
+    font-family: Arvo;
     text-align: center;
     font-size: 20pt;
     margin: 2px;

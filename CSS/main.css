@@ -69,6 +69,14 @@ img
 {
     filter: grayscale(50%)
 }
+img
+{
+    width:200px
+}
+img
+{
+    height:300px
+}
 a
 {
     color: grey

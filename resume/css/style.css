@@ -1,0 +1,83 @@
+:root
+{
+    background-color: rgb(0, 0, 0);
+    background-repeat: repeat;
+    color: white
+}
+@font-face
+{
+    font-family: PlayfairDisplay;
+    src: url("font/PlayfairDisplay-Italic-VariableFont_wght.ttf")
+}
+@font-face
+{
+    font-family: Arvo;
+    src: url("font/Arvo-Regular.ttf")
+}
+li
+{
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+li img
+{
+    height: 20pt;
+}
+.side
+{
+    border: 2px rgb(200, 200, 200) solid;
+    width: 30vw;
+    background-color: rbg(38. 38, 38);
+    float: right;
+}
+h1
+{
+    font-family: Arvo;
+    text-align: center;
+    font-size: 20pt;
+    margin: 2px;
+    color: navy
+}
+h2
+{
+    font-family: Arvo;
+    text-align: center;
+    font-size: 20pt;
+    margin: 2px;
+    color:navy
+}
+h3
+{
+    font-family: Arvo;
+    text-align: center;
+    font-size: 20pt;
+    margin: 2px;
+    color:navy
+}
+section
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+table
+{
+    border: solid black
+}
+img
+{
+    filter: grayscale(50%)
+}
+img
+{
+    width:450px
+}
+img
+{
+    height:300px
+}
+a
+{
+    color: grey
+}

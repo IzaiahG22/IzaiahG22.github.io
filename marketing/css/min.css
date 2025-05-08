@@ -699,8 +699,6 @@ button.suggestion-module__pill___3slbS{padding:.5rem .75rem;margin:.2rem;display
 section{
     margin-left: 25px;
     margin-right: 25px;
-    margin-top: 50px;
-    margin-bottom: 50px
 }
 h3{
     font-family: swiper-icons;
@@ -709,3 +707,8 @@ h3{
 @font-face{
     font-family: swiper-icon;
     src: url("font/swiper-icons.ttf")
+
+}
+:root{
+    background-color: rgb(100,100,100);
+    background-repeat: repeat;

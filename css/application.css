@@ -49,3 +49,28 @@ section{
     margin-top: 50px;
     margin-bottom: 50px
 }
+.thumbnail-container {
+    margin: 1em 0;
+    text-align: center;
+  }
+  
+  .thumbnail {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: transform 0.2s;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  }
+  
+  .thumbnail-caption {
+    display: block;
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
+  }
